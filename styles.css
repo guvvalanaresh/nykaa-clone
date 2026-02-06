@@ -18,17 +18,106 @@
     /* In header they had 3 rows with full width so i created this 1fr column and gave the height for the rows */
     display: grid;
     /* grid-template-columns: 1fr; */
-    grid-template-rows: 30px 60px 30px;
+    grid-template-rows: 40px 60px 35px;
 }
+
 .header-1 {
-    background-color: lightblue;
+    background-color: #F5F5F5;
+
+    /* Aligned the items vertically to center and at end horizontailly */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
+.header-1 ul {
+    display: flex;
+
+    list-style: none;
+    gap: 10px;
+    margin-right: 10px;
+}
+.header-1 ul li {
+    font-weight: bold;
+    font-size: smaller;
+}
+
 .header-2 {
-    background-color: lightgray;
+    background-color: #FFFFFF;;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+.nike{
+    font-size: medium;
+    font-weight: bold;
+}
+.header-2 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header-2 nav ul li {
+    font-size: medium;
+    font-weight: bold;
+}
+.header-2 nav ul li:hover {
+    cursor: pointer;
+}
+.right-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-content span {
+    padding: 5px;
+    border-radius: 25px;
+}
+.right-content span:hover {
+    background-color: rgb(179, 177, 177);
+    cursor: pointer;
+}
+.right-content input {
+    padding-right: 40px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(249, 246, 246);
+    outline: none;
+    padding-left: 45px;
+}
+.right-content input::placeholder{
+    /* padding-left: 10px; */
+    font-size: medium;
+}
+.search-icon {
+    position: absolute;
+    right: 300px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.search-icon:hover {
+    background-color: rgb(164, 162, 162);
+}
+
 .header-3 {
-    background-color: lightcoral;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
 }
+
+
 
 /* Hero Section */
 .hero {
@@ -40,6 +129,8 @@
 .hero-image {
     background-color: red;
 }
+
+
 
 /* Main Section */
 .main {
@@ -70,6 +161,8 @@
     display: grid;
     grid-template-rows: 700px;
 }
+
+
 
 /* Footer Section */
 .footer {
