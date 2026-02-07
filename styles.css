@@ -175,15 +175,12 @@
 .image-1{
     background:url("./images/one.avif") center/cover;
 }
-
 .image-2{
     background:url("./images/two.avif") center/cover;
 }
-
 .image-3{
     background:url("./images/three.avif") center/cover;
 }
-
 .image-4{
     background:url("./images/four.avif") center/cover;
 }
@@ -220,21 +217,13 @@
 }
 
 .banner {
-    display: grid;
-}
-.banner-card {
-    height: 100%;
-}
-.banner-image {
-    width: 100%;
-    background: url(./images/banner.avif) center/cover;
+    padding-top: 100px;
 }
 
 .spotlight {
-    background-color: whitesmoke;
-    display: grid;
-    grid-template-rows: 700px;
+    
 }
+
 
 
 
