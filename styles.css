@@ -249,7 +249,24 @@
 
 /* Footer Section */
 .footer {
-    background-color: aquamarine;
-    display: grid;
-    grid-template-rows: 150px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    padding-top: 24px;
+    padding-bottom: 100px;
+    
+    margin-left: 54px;
+    margin-right: 54px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-top: 0.5px solid #E5E5E5;
+}
+.footer span {
+    color: rgb(129, 125, 125);
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(129, 125, 125);
 }
